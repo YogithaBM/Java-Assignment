@@ -1,4 +1,4 @@
-package com.hospital.patient;
+package com.thinkworks.hospital.patient;
 
 public class Patient {
     public Patient(String patientName,int age) {

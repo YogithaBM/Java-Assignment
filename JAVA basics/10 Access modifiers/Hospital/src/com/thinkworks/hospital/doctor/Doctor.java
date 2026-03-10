@@ -1,4 +1,4 @@
-package com.hospital.doctor;
+package com.thinkworks.hospital.doctor;
 
 public class Doctor {
         public Doctor(String name,String specialization) {

@@ -1,4 +1,4 @@
-package com.hospital.patient;
+package com.thinkworks.hospital.patient;
 
 public class Billing {
     public Billing(String patientName,double amount) {

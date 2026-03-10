@@ -1,11 +1,11 @@
-package com.hospital.runner;
+package com.thinkworks.hospital.runner;
 
-import com.hospital.doctor.Department;
-import com.hospital.doctor.Doctor;
-import com.hospital.doctor.Nurse;
-import com.hospital.patient.Appointment;
-import com.hospital.patient.Billing;
-import com.hospital.patient.Patient;
+import com.thinkworks.hospital.doctor.Department;
+import com.thinkworks.hospital.doctor.Doctor;
+import com.thinkworks.hospital.doctor.Nurse;
+import com.thinkworks.hospital.patient.Appointment;
+import com.thinkworks.hospital.patient.Billing;
+import com.thinkworks.hospital.patient.Patient;
 
 public class MainRunner {
     public static void main(String[] args) {
@@ -20,7 +20,7 @@ public class MainRunner {
         Appointment appointment=new Appointment("Palak","10:30");
         System.out.println("  ");
         Billing billing=new Billing("Mrudulla",34734.63D);
-        
+
 
     }
 }

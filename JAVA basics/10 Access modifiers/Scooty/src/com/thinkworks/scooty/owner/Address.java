@@ -1,4 +1,4 @@
-package com.scooty.owner;
+package com.thinkworks.scooty.owner;
 
 public class Address {
     private void checkCity(String city){

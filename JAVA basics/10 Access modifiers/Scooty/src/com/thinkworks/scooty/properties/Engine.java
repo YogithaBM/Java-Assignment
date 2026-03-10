@@ -1,4 +1,4 @@
-package com.scooty.properties;
+package com.thinkworks.scooty.properties;
 
 public class Engine {
     private void checkOilLevel(double oil){

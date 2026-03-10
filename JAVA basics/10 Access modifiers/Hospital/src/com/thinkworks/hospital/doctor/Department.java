@@ -1,4 +1,4 @@
-package com.hospital.doctor;
+package com.thinkworks.hospital.doctor;
 
 public class Department {
     public Department(String departmentName,int floor) {

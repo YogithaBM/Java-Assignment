@@ -1,4 +1,4 @@
-package com.scooty.owner;
+package com.thinkworks.scooty.owner;
 
 public class Owner {
     private void name(String ownerName){

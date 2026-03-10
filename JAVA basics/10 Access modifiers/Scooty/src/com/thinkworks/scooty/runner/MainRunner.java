@@ -1,11 +1,11 @@
-package com.scooty.runner;
+package com.thinkworks.scooty.runner;
 
-import com.scooty.owner.Address;
-import com.scooty.owner.Owner;
-import com.scooty.owner.Validation;
-import com.scooty.properties.Brake;
-import com.scooty.properties.Engine;
-import com.scooty.properties.Wheel;
+import com.thinkworks.scooty.owner.Address;
+import com.thinkworks.scooty.owner.Owner;
+import com.thinkworks.scooty.owner.Validation;
+import com.thinkworks.scooty.properties.Brake;
+import com.thinkworks.scooty.properties.Engine;
+import com.thinkworks.scooty.properties.Wheel;
 
 public class MainRunner {
     public static void main(String[] args) {
