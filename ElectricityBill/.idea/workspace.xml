@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="58969c42-2881-4d33-9e75-3250d5b77b6f" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../JAVA basics/10 Access modifiers/AppConfig/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JAVA basics/10 Access modifiers/AppConfig/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JAVA basics/10 Access modifiers/AppConfig/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JAVA basics/10 Access modifiers/AppConfig/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JAVA basics/10 Access modifiers/AppConfig/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JAVA basics/10 Access modifiers/AppConfig/AppConfig.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JAVA basics/10 Access modifiers/AppConfig/src/com/thinkworkers/appconfig/AppConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JAVA basics/10 Access modifiers/AppConfig/src/com/thinkworkers/runner/MainRunner.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "YogithaBM"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/YogithaBM/Java-Basics.git",
+    "accountId": "6a5cb317-a454-47d6-b71f-6dde25033fd9"
+  }
+}]]></component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 8
+}]]></component>
+  <component name="ProjectId" id="3AqsoPbEhtrzMJDmMRhmfgrnWTO" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-30f59d01ecdd-2fc7cc6b9a17-intellij.indexing.shared.core-IU-253.31033.145" />
+        <option value="bundled-js-predefined-d6986cc7102b-9b0f141eb926-JavaScript-IU-253.31033.145" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="58969c42-2881-4d33-9e75-3250d5b77b6f" name="Changes" comment="" />
+      <created>1773331611461</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1773331611461</updated>
+      <workItem from="1773331612504" duration="1682000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
