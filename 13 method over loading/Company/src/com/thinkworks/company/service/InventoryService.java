@@ -1,6 +1,7 @@
 package com.thinkworks.company.service;
 
 import com.thinkworks.company.dto.Customer;
+import com.thinkworks.company.dto.Order;
 import com.thinkworks.company.dto.Product;
 
 public class InventoryService {
@@ -18,7 +19,33 @@ public class InventoryService {
         System.out.println("Name : "+customer.getName());
         System.out.println("Phone Number : "+customer.getPhone());
     }
-    
+    public void printOrderDetails(Order order){
+        System.out.println("Customer Name : "+order.getCustomer().getName());
+        Product[] products= order.getProducts();
+        System.out.println("Product List : ");
+        for(Product product:products) {
+            System.out.println(product.getProductName());
+
+        }
+        System.out.println("Total = "+order.calculateOrderValue());
+    }
+    public double calculateInventoryValue(Product[] products){
+        double total=0;
+        for(Product product: products ){
+            total+=product.calculateStockValue();
+
+        }
+        return total;
+    }
+    public void findLowStockProducts(Product[] products){
+        for(Product product:products){
+            if (product.getQuantity()<5){
+                System.out.println("Low stock products"+product.getProductName());
+            }
+        }
+    }
+
+
 
 
 

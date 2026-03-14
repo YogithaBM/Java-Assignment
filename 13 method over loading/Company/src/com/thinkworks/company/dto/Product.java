@@ -35,6 +35,7 @@ public class Product {
         this.price=price;
     }
     public double getPrice(){
+
         return price;
     }
     public void setQuantity(int quantity)
