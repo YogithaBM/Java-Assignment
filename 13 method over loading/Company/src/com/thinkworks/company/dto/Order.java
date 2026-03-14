@@ -5,7 +5,7 @@ public class Order {
     private Customer customer;
     private Product[] products;
     private int productCount;
-    private double total;
+
 
     public Order (int orderId,Customer customer,Product[] products,int productCount){
         this.orderId=orderId;
@@ -47,6 +47,7 @@ public class Order {
     }
 
     public double calculateOrderValue() {
+        double total=0;
         for (Product product : products) {
             total = +product.getPrice();
         }
