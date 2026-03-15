@@ -25,7 +25,6 @@ public class InventoryService {
         System.out.println("Product List : ");
         for(Product product:products) {
             System.out.println(product.getProductName());
-
         }
         System.out.println("Total = "+order.calculateOrderValue());
     }
