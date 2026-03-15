@@ -12,11 +12,11 @@ public class MainRunner {
 
         DeviceService service=new DeviceService();
         service.printDeviceDetails(device);
-        System.out.println();
+        System.out.println("    ");
         service.printControllerDetails(controller);
-        System.out.println();
+        System.out.println("   ");
         service.printSensorDetails(sensor);
-        System.out.println();
+        System.out.println("   ");
         service.runDeviceDiagnostics(device);
     }
 }
