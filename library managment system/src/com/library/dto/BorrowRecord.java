@@ -13,4 +13,46 @@ public class BorrowRecord {
         this.borrowCount = borrowCount;
     }
 
+    public double calculateTotalBorrowValue() {
+        double totalBorrowValue = 0;
+        for (Book book : books) {
+            if (book.getStock() != 0) {
+                totalBorrowValue+= book.getPrice();
+
+            }
+        }
+        return totalBorrowValue;
+    }
+
+    public int getRecordId() {
+        return recordId;
+    }
+
+    public void setRecordId(int recordId) {
+        this.recordId = recordId;
+    }
+
+    public Member getMember() {
+        return member;
+    }
+
+    public void setMember(Member member) {
+        this.member = member;
+    }
+
+    public Book[] getBooks() {
+        return books;
+    }
+
+    public void setBooks(Book[] books) {
+        this.books = books;
+    }
+
+    public int getBorrowCount() {
+        return borrowCount;
+    }
+
+    public void setBorrowCount(int borrowCount) {
+        this.borrowCount = borrowCount;
+    }
 }

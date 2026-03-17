@@ -66,6 +66,7 @@ public class Book {
     }
 
     public double calculateStockValue() {
+
         return price * stock;
     }
 
