@@ -3,9 +3,11 @@ package com.library.runner;
 import com.library.dto.*;
 import com.library.service.LibraryService;
 
+import static com.library.service.LibraryService.LIBRARY_NAME;
+
 public class MainRunner {
     public static void main(String[] args) {
-        System.out.println(LibraryService.LIBRARY_NAME);
+        System.out.println(LIBRARY_NAME);
 
         Book book1 = new Book(2343, "Percy Jackson", "Rick Riordan", 453.47D, 2, BookCategory.FICTION);
         Book book2 = new Book(23, "Java", "James Gosling", 564.4D, 1, BookCategory.TECHNOLOGY);

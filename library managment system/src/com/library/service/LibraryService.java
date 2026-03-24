@@ -1,9 +1,7 @@
 package com.library.service;
-
 import com.library.dto.Book;
 import com.library.dto.BorrowRecord;
 import com.library.dto.Member;
-import com.sun.org.apache.xpath.internal.operations.Variable;
 
 public class LibraryService {
     public static final String LIBRARY_NAME = "City Central Library";
@@ -39,18 +37,22 @@ public class LibraryService {
 
         System.out.println("Total Borrow Value : "+record.calculateTotalBorrowValue());
     }
-    public double calculateLibraryValue(Book[] books){
-        double totalStockValue=0;
-        for(Book book:books){
-            totalStockValue+=book.calculateStockValue();
+    public double calculateLibraryValue(Book[] books) {
+        double totalStockValue = 0;
+        for (Book book : books) {
+            totalStockValue += book.calculateStockValue();
         }
         return totalStockValue;
+
     }
     public void findLowStockBooks(Book[] books){
         for (Book book:books){
             System.out.println("Title : "+book.getTitle());
             System.out.println("Stock : "+book.getStock());
         }
+
     }
 
+
 }
+

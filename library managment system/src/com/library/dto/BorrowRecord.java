@@ -11,6 +11,7 @@ public class BorrowRecord {
         this.member = member;
         this.books = books;
         this.borrowCount = borrowCount;
+        System.out.println(this);
     }
 
     public double calculateTotalBorrowValue() {
