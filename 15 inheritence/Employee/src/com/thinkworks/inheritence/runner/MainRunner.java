@@ -8,14 +8,17 @@ public class MainRunner {
     public static void main(String[] args) {
         Developer developer = new Developer();
         developer.setEmpId("843");
+        developer.setEmpName("Nobi");
         System.out.println("Developer ID: " + developer.getEmpId());
 
         Tester tester = new Tester();
         tester.setEmpId("7634");
+        tester.setEmpName("Deki");
         System.out.println("Tester ID: " + tester.getEmpId());
 
         Manager manager = new Manager();
         manager.setEmpId("9863");
+        manager.setEmpName("Gian");
         System.out.println("Manager ID: " + manager.getEmpId());
 
     }
