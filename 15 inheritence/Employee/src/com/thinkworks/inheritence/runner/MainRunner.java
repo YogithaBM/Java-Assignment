@@ -6,6 +6,7 @@ import com.thinkworks.inheritence.internal.Tester;
 
 public class MainRunner {
     public static void main(String[] args) {
+
         Developer developer = new Developer();
         developer.setEmpId("843");
         developer.setEmpName("Nobi");
@@ -20,6 +21,7 @@ public class MainRunner {
         manager.setEmpId("9863");
         manager.setEmpName("Gian");
         System.out.println("Manager ID: " + manager.getEmpId());
+
 
     }
 
