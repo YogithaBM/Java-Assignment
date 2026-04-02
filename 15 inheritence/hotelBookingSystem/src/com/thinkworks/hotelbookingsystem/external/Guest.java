@@ -1,16 +1,18 @@
 package com.thinkworks.hotelbookingsystem.external;
 
-import com.thinkworks.hotelbookingsystem.internal.Room;
-
 public class Guest extends Person{
-    private Room[] rooms;
+    private String stayType;
 
     public Guest() {
-        System.out.println("no argument constructor");
+        System.out.println("Guest constructor");
     }
 
-    public Room[] getRooms() { return rooms; }
-    public void setRooms(Room[] rooms) { this.rooms = rooms; }
+    public String getStayType() {
+        return stayType;
+    }
 
+    public void setStayType(String stayType) {
+        this.stayType = stayType;
+    }
 }
 
